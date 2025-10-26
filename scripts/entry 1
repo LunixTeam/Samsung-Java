@@ -1,1 +1,6 @@
-
+public class Main {
+    public static void main(String[] args) {
+        // Выводит текст в консоль (сокрощение sout для написания принтлн) 
+        System.out.println("Hello world!");
+    }
+}
