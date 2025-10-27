@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+    /*static void main() {
+        Scanner sc = new Scanner(System.in);
+        int a, b;
+        a = sc.nextInt();
+        //b = sc.nextInt();
+
+        boolean boolA = !(a * 5 - 3 > 0) && a < 5;
+
+        System.out.println(boolA);
+
+        System.out.println(a > 0 && a < 5 ? "YES" : "NO");
+    }*/
+
+    public static void main(String[] args) {
+        double x, y;
+
+        Scanner sc = new Scanner(System.in);
+
+        x = sc.nextDouble();
+        y = sc.nextDouble();
+
+        double a = Math.PI;
+        // Машина для убийства глаз
+        String res;
+        res = (x * x + y * y > 4) && (y > 0) ? "YES" : "NO";
+
+        //sout
+        System.out.println(res);
+
+        sc.close();
+    }
+}
