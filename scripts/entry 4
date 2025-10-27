@@ -1,0 +1,75 @@
+import java.util.Scanner;
+
+public class Main {
+    static int i = 0;
+
+    public static void main(String[] args) {
+        //int a, b;
+
+        Scanner sc = new Scanner(System.in);
+
+            /*a = sc.nextInt();
+                b = sc.nextInt();
+
+                if (a > b) {
+                    System.out.println("a больше и равно " + a);
+                } else if (a == b) {
+                    System.out.println("a и b равны");
+                } else {
+                    System.out.println("b больше и равно " + b);
+                }*/
+        /*int month = sc.nextInt();
+
+        switch (month) {
+            case 1:
+                System.out.println("Январь");
+                break;
+            case 2:
+                System.out.println("Февраль");
+                break;
+            case 3:
+                System.out.println("Март");
+                break;
+            case 4:
+                System.out.println("Апрель");
+                break;
+            case 5:
+                System.out.println("Май");
+                break;
+            case 6:
+                System.out.println("Июнь");
+                break;
+            case 7:
+                System.out.println("Июль");
+                break;
+            case 8:
+                System.out.println("Август");
+                break;
+            case 9:
+                System.out.println("Сентябрь");
+                break;
+            case 10:
+                System.out.println("Октябрь");
+                break;
+            case 11:
+                System.out.println("Ноябрь");
+                break;
+            case 12:
+                System.out.println("Декабрь");
+                break;
+            default:
+                System.out.println("Несуществует такой номер месяца");
+        }*/
+
+        int a = sc.nextInt();
+        i++;
+
+        if (a == 5) {
+            int i = 10;
+            System.out.println("а = 5");
+            System.out.println(a);
+            System.out.println(Main.i);
+        }
+        System.out.println(i);
+    }
+}
