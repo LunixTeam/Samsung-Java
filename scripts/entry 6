@@ -1,1 +1,35 @@
-Скоро будет...
+Мы писали код в Android Studio. Там создаётся куча технических файлов, и закинуть всё это на GitHub — очень сложная задача. Но я напишу код с примерами задач по массивам и циклам.
+Первый пример
+  // Создание и заполнение массива
+  int[] numbers = {5, 3, 8, 1, 9};
+  
+  // Вывод всех элементов массива
+  for (int i = 0; i < numbers.length; i++) {
+      System.out.println("Элемент " + i + ": " + numbers[i]);
+  }
+  
+  // Поиск максимального элемента
+  int max = numbers[0];
+  for (int i = 1; i < numbers.length; i++) {
+      if (numbers[i] > max) {
+          max = numbers[i];
+      }
+  }
+  System.out.println("Максимальный элемент: " + max);
+
+Второй пример
+  int[] numbers = {4, 7, 2, 9, 5, 1, 8};
+  int searchNumber = 9;
+  boolean found = false;
+  
+  for (int i = 0; i < numbers.length; i++) {
+      if (numbers[i] == searchNumber) {
+          System.out.println("Число " + searchNumber + " найдено на позиции " + i);
+          found = true;
+          break; // прерываем цикл, если нашли
+      }
+  }
+  
+  if (!found) {
+      System.out.println("Число не найдено");
+  }
